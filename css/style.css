@@ -3,3 +3,65 @@
     padding: 0;
     box-sizing: border-box;
 }
+
+    /* HEADER */
+
+header{
+    background-color: #0084FD;
+}
+
+.header-container{
+    display: flex;
+    justify-content: space-between;
+    width: 1140px;
+    min-height: 50px;
+    margin: auto;
+ 
+}
+
+header > .header-left{
+    
+}
+
+header > .header-right{
+    
+}
+
+    /* MAIN */
+
+.first-section{
+    width: 1140px;
+    margin: auto;
+}
+    /* FIRST ROW */
+.first-row{
+    display: flex;
+    padding-top: 30px;
+}
+
+.first-card{
+    width: calc((100% / 3) * 2);
+    background-color: #B5DDFF;
+    margin-right: 15px;
+    border-radius: 10px 10px 10px 10px;
+}
+
+.second-card{
+    width: calc(100% / 3);
+    background-color: #B5DDFF;
+    border-radius: 10px 10px 10px 10px;
+}
+
+    /* SECOND ROW */
+
+.second-row{
+    display: flex;
+    padding-top: 10px;
+}
+    
+.third-card{
+    width: calc(100% / 3);
+    
+    background-color: #B5DDFF;
+    border-radius: 10px 10px 10px 10px;
+}
