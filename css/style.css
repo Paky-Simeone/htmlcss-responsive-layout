@@ -16,40 +16,139 @@ header{
     width: 1140px;
     min-height: 50px;
     margin: auto;
- 
+    align-items: center;
 }
 
-header > .header-left{
-    
+.header-left > img:hover{
+    cursor: pointer;
 }
 
-header > .header-right{
-    
+.header-right{
+    text-align: center;
+    margin: 15px;
+    gap: 15px;
+    display: flex;
+}
+
+.nav-right{
+    padding-top: 10px;
+    color: white;
+}
+
+.nav-right:hover{
+    cursor: pointer;
+    color: blue;
+}
+
+.header-right > div:nth-last-child(1) > button{
+    border: none;
+    background-color: white;
+    border-radius: 20px 20px 20px 20px;
+    padding: 10px;
+}
+
+.header-right > div:nth-last-child(1) > button:hover{
+    cursor: pointer;
+    color: #0084FD;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
 }
 
     /* MAIN */
+
+    /***** PRIMA SECTION *****/
 
 .first-section{
     width: 1140px;
     margin: auto;
 }
     /* FIRST ROW */
+    /* FIRST CARD */
 .first-row{
     display: flex;
-    padding-top: 30px;
+    margin-top: 30px;
 }
 
 .first-card{
+    display: flex;
     width: calc((100% / 3) * 2);
     background-color: #B5DDFF;
     margin-right: 15px;
     border-radius: 10px 10px 10px 10px;
+    margin: 10px;
 }
+
+.first-card-left{
+    width: 50%;
+    padding-left: 15px;
+}
+
+.first-card-left > h2{
+    color: #0084FD;
+    margin-top: 35px;
+}
+
+.first-card-left > p{
+    color: #5A6E7F;
+    margin-top: 35px;
+    text-align: left;
+    font-size: large;
+    line-height: 1.5rem;
+}
+
+.first-card-left > button{
+    border: none;
+    border-radius: 25px 25px 25px 25px;
+    padding: 15px;
+    color: white;
+    background-color: #0084FD;
+    margin-top: 30px;
+}
+
+.first-card-left > button:hover{
+    cursor: pointer;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
+
+.first-card-right{
+    width: 50%;
+   padding-top: 70px;
+   padding-left: 70px;
+   padding-right: 70px;
+}
+
+.first-card-right > img{
+    width: 100%;
+    display: block;
+}
+
+    /* SECOND CARD */
 
 .second-card{
     width: calc(100% / 3);
     background-color: #B5DDFF;
     border-radius: 10px 10px 10px 10px;
+    text-align: center;
+    margin: 10px;
+}
+
+.fa-solid.fa-file-code,
+.fa-solid.fa-compass-drafting,
+.fa-solid.fa-laptop-code,
+.fa-solid.fa-bullhorn{
+   font-size: 5rem;
+    color: #0084FD;
+    margin-top: 20px;
+}
+
+.second-card > h2{
+    color: #0084FD;
+    margin-top: 20px;
+}
+
+.second-card > p{
+    color: #5A6E7F;
+    margin: 20px 20px;
+    line-height: 1.5rem;
 }
 
     /* SECOND ROW */
@@ -57,11 +156,91 @@ header > .header-right{
 .second-row{
     display: flex;
     padding-top: 10px;
+    padding-bottom: 60px;
+}
+
+.second-row > .third-card:nth-of-type(1){
+    margin-right: 15px;
 }
     
+.second-row > .third-card:nth-of-type(2){
+    margin-right: 15px;
+}
+
 .third-card{
     width: calc(100% / 3);
-    
     background-color: #B5DDFF;
     border-radius: 10px 10px 10px 10px;
+    margin-bottom: 30px;
 }
+
+    /***** SECONDA SECTION *****/
+
+.second-section{
+    background-color: #9792E4;
+}
+
+.second-container{
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+    width: 1140px;
+    margin: auto;
+    background-color: #9792E4;
+    padding-top: 50px;
+}
+
+.left-col{
+   width: 40%;
+   padding-right: 15px;
+   margin-bottom: 30px;
+}
+
+.left-col > img{
+    width: 100%;
+    margin-bottom: 50px;
+}
+
+.left-col > h2{
+    margin-top: 30px;
+   color: white;
+}
+
+.left-col > p{
+    margin-top: 30px;
+   color: white;
+   text-align: left;
+}
+
+.right-col{
+    width: 30%;
+    background-color: white;
+    border-radius: 40px 40px 40px 40px;
+    margin-top: 100px;
+    padding: 30px;
+    margin-bottom: 30px;
+}
+
+.right-col > img{
+    width: 100%;
+    align-self: center;
+    margin-bottom: 10px;
+}
+
+.right-col > h2,p{
+    text-align: center;
+    margin-bottom: 10px;
+}
+
+.cerchio-viola{
+    text-align: center;
+    width: 40px;
+    height: 40px;
+    line-height: 40px;
+    vertical-align: middle;
+    margin: auto;
+    margin-top: 20px;
+    border-radius: 107%;
+    background-color: #9792E4;
+}
+
