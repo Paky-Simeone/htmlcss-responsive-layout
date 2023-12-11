@@ -44,7 +44,9 @@ header{
     border: none;
     background-color: white;
     border-radius: 20px 20px 20px 20px;
-    padding: 10px;
+    padding: 10px 30px;
+    letter-spacing: 3px;
+    font-weight: bold;
 }
 
 .header-right > div:nth-last-child(1) > button:hover{
@@ -98,10 +100,12 @@ header{
 .first-card-left > button{
     border: none;
     border-radius: 25px 25px 25px 25px;
-    padding: 15px;
-    color: white;
     background-color: #0084FD;
+    padding: 15px 40px;
     margin-top: 30px;
+    font-weight: bold;
+    letter-spacing: 5px;
+    color: white;
 }
 
 .first-card-left > button:hover{
@@ -295,3 +299,65 @@ header{
    margin-top: 40px;
 }
 
+    /* QUARTA SECTION */
+
+.section-benefit{
+    background-color: #9792E4;
+}
+
+
+.section-benefit > h2{
+    color: white;
+    text-align: center;
+    margin: 40px 0px;
+    padding-top: 25px;
+    font-size: 3rem;
+}
+
+.container-benefit{
+    display: flex;
+    flex-wrap: wrap;
+    width: 1140px;
+    margin: auto;
+    gap: 20px;
+}
+
+.benefit-card{
+    width: calc((100% - 40px) / 3);
+    background-color: white;
+    border-radius: 20px 20px;
+    padding: 30px;
+}
+
+.benefit-card > p{
+    color: #5A6E7F;
+    text-align: left;
+    margin-top: 30px;
+}
+
+.benefit-card > h2{
+    color: #9792E4;
+    font-size: 5rem;
+}
+
+.benefit-card > h3{
+    color: #9792E4;
+    font-size: 1.8rem;
+    margin-top: 15px;
+}
+
+.benefit-card > button{
+    color: white;
+    border: none;
+    background-color: #9792E4;
+    border-radius: 25px 25px;
+    padding: 15px 40px;
+    letter-spacing: 5px;
+    font-weight: bold;
+    margin-top: 20px;
+}
+
+.benefit-card > button:hover{
+    cursor: pointer;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
