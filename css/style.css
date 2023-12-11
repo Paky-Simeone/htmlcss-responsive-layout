@@ -231,7 +231,12 @@ header{
     margin-bottom: 10px;
 }
 
-.right-col > h2,p{
+.right-col > h2{
+    text-align: center;
+    margin-bottom: 10px;
+}
+
+.right-col > p{
     text-align: center;
     margin-bottom: 10px;
 }
@@ -448,14 +453,17 @@ margin-bottom: 40px;
 .container-free > p:nth-of-type(1){
  color: #B8B5EC;
  padding-top: 25px;
+ text-align: center;
 }
 
 .container-free > p:nth-of-type(2){
     color: white;
+    text-align: center;
 }
 
 .container-free > p:nth-of-type(3){
     color: white;
+    text-align: center;
 }
 
 .container-free > h2:nth-of-type(1){
@@ -492,4 +500,37 @@ margin-bottom: 40px;
     color: white;
     background-color: #FDC15F;
     
+}
+
+    /* FOOTER */
+
+footer{
+    background-color: #333333;
+}
+
+.footer-container{
+    width: 1140px;
+    margin: auto;
+}
+
+.footer-container > p:nth-of-type(1){
+    text-align: center;
+    padding-top: 30px;
+    margin-bottom: 50px;
+    color: white;
+}
+
+.footer-container > p:nth-of-type(2){
+    text-align: center;
+    padding-bottom: 30px;
+    color: white;
+}
+
+.footer-container > p:nth-of-type(2) > a{
+    color: #0084FD;
+}
+
+.footer-container > p:nth-of-type(2) > a:hover{
+    cursor: pointer;
+    color: #9792E4;
 }
