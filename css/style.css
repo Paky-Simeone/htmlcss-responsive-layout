@@ -244,3 +244,54 @@ header{
     background-color: #9792E4;
 }
 
+
+        /* TERZA SECTION */
+
+.third-section > p{
+    text-align: center;
+    margin: 30px 0px;
+}
+
+.third-section > h2{
+    text-align: center;
+    color: #9792E4;
+    font-size: 3rem;
+}
+
+.testimonials-row{
+    display: flex;
+    background-color: #9792E4;
+    height: 300px;
+    width: 1140px;
+    margin: auto;
+    margin-bottom: 25px;
+    border-radius: 30px 30px;
+}
+
+.testimonials-left{
+    width: 20%;
+    height: 300px;
+}
+
+.testimonials-left > img{
+    border-radius: 50%;
+    width: 100%;
+    margin: 3rem;
+}
+
+.testimonials-right{
+    width: 55%;
+    height: 300px;
+    margin-top: 85px;
+    margin-left: 150px;
+    color: white;
+}
+
+.testimonials-right > p{
+    text-align: left;
+}
+
+.testimonials-right > p:nth-of-type(2){
+   margin-top: 40px;
+}
+
